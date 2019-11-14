@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php介绍--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			$ren = 'man';                       //变量
+			if($ren == 'man'){					//运算
+				echo '帅哥，你好';
+				//var_dump('帅哥，你好');
+			}else{								//控制
+				echo '美女，你好';
+				//var_dump('美女，你好');
+			}
+		?>
+	</body>
+</html>
