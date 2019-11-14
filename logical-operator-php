@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php逻辑运算符--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				逻辑运算符：&& || ! 
+				字符串拼接：.
+			*/
+			
+			$str = ".变量";
+			echo "字符串拼接格式：".$str;
+
+			$car = true;
+			$house = false;
+			echo '<br/>';
+			if($car || $house){
+				echo '有钱人';
+			}else {
+				echo '穷人';
+			}
+		?>
+	</body>
+</html>
