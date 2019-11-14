@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php-for循环--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				三大控制结构：顺序 选择  循环
+			*/
+
+			for($i = 0; $i < 10; $i++){
+				echo $i," ";
+			}
+
+			//九九乘法表：
+			echo '<br/>',"九九乘法表输出：",'<br/>';
+			for($i = 1; $i <= 9; $i++){
+				for($j = 1; $j <= $i; $j++){
+					echo $i,"*",$j,"=",$i*$j,"&nbsp;&nbsp;";
+				}
+				echo '<br/>';
+			}
+
+			//输出10,9,8,7,6
+			echo '<br/>',"输出10,9,8,7,6:",'<br/>';
+			for($i = 10; $i > 6; $i--){
+				echo $i,',';
+			}
+			echo 6;
+		?>
+	</body>
+</html>
