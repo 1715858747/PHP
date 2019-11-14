@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php三大控制结构--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				三大控制结构：顺序 选择  循环
+			*/
+
+			echo "顺序";
+
+			$flag = true;
+			if($flag){
+				#code...
+			}else {
+				#code...
+			}
+
+			while($flag == true){
+				#code...
+			}
+		?>
+	</body>
+</html>
