@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php比较运算符--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				比较运算符：< <= > >= != == === !==
+				boolean true(1) false(0)
+			*/
+
+			$a = 10;
+			$b = 3;
+			$c = $a < $b;//boolean 
+			var_dump($c);
+			//var_dump('abc');
+			echo $c;
+			if($c === false){
+				echo '失败';
+			}else {
+				echo '成功';
+			}
+			
+			//strpos(haystack,needle);用来匹配字符串，返回匹配结果，成功返回匹配下标int（从0开始） 失败返回boolean结果false。
+			$str = "abc";
+			$result = strpos($str,"a");
+			echo "<br/>".$result;
+			var_dump($result);
+		?>
+	</body>
+</html>
