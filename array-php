@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php-数组--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				变量类型：整型、字符串、布尔型、浮点型float、double
+
+				复合类型：数组
+			*/
+
+			$arr = array(1 => '张三',2 => '李四');
+			var_dump($arr);//专门打印boolean
+			print_r($arr);//专门打印数组
+		?>
+	</body>
+</html>
