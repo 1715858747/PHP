@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>php字符串--叮当猫</title>
+	</head>
+	<body>
+		<?php
+			/*
+				字符串
+
+				字符转义：\'  \\
+				单引号只能识别2个转义字符（\'  \\）
+				双引号能够识别的转义字符：\n \t \r
+				运行速度
+			*/
+
+			$a = 'ab\'c';//输出单引号
+			$b = "ab\n'c";
+			echo $a;
+			echo "<br/>",$b;
+
+			$c = 'sfsgs$a';//双引号可以识别变量,单引号不行
+			echo "<br/>",$c;
+		?>
+	</body>
+</html>
