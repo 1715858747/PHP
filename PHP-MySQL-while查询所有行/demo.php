@@ -11,7 +11,7 @@
 			*/
 
 			//连接数据库
-			$link = mysqli_connect('localhost','root','1715858747kan','test');
+			$link = mysqli_connect('localhost','root','password','test');
 
 			//设置编码字符集
 			mysqli_query($link,'set names utf8');
