@@ -26,7 +26,7 @@
 			mysqli_query($result,'set names utf8');
 			//mysqli::query();*/
 
-			/*$result = mysql_connect('localhost','root','1715858747kan');
+			/*$result = mysql_connect('localhost','root','password');
 			mysql_query('use test');//选库
 			mysql_query('set names utf8');
 			var_dump($result);//通道标识 资源*/
