@@ -7,7 +7,7 @@
 	<body>
 		<?php
 			
-			$result = mysqli_connect('localhost','root','1715858747kan','test');
+			$result = mysqli_connect('localhost','root','password','test');
 			//var_dump($result);
 
 			//设置字符集,查询mysqli_query(通道对象,查询语言,...);
