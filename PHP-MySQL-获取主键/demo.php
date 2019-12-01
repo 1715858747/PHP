@@ -11,7 +11,7 @@
 
 			*/
 
-			$link = mysqli_connect('localhost','root','1715858747kan','test');
+			$link = mysqli_connect('localhost','root','password','test');
 			mysqli_query($link,'set names utf8');
 
 			$sql = 'insert into user(uid) values(8)';
